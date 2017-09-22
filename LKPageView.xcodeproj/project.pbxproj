@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A9DEF531F39936D00789FA5 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9DEF521F39936C00789FA5 /* UIColor-Extension.swift */; };
+		4AC9FE2A1F383A73008E079F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC9FE291F383A73008E079F /* AppDelegate.swift */; };
+		4AC9FE2C1F383A73008E079F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC9FE2B1F383A73008E079F /* ViewController.swift */; };
+		4AC9FE2F1F383A73008E079F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC9FE2D1F383A73008E079F /* Main.storyboard */; };
+		4AC9FE311F383A73008E079F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AC9FE301F383A73008E079F /* Assets.xcassets */; };
+		4AC9FE341F383A73008E079F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC9FE321F383A73008E079F /* LaunchScreen.storyboard */; };
+		4AC9FE3F1F383A74008E079F /* LKPageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC9FE3E1F383A74008E079F /* LKPageViewTests.swift */; };
+		4AC9FE4A1F383A74008E079F /* LKPageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC9FE491F383A74008E079F /* LKPageViewUITests.swift */; };
+		4AC9FE591F383B62008E079F /* LKPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC9FE581F383B62008E079F /* LKPageView.swift */; };
+		4AC9FE5B1F383B7A008E079F /* LKTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC9FE5A1F383B7A008E079F /* LKTitleView.swift */; };
+		4AC9FE5D1F383BBA008E079F /* LKContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC9FE5C1F383BBA008E079F /* LKContentView.swift */; };
+		4AC9FE5F1F383CC9008E079F /* LKPageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC9FE5E1F383CC9008E079F /* LKPageStyle.swift */; };
+		4AE27D591F6A69240022AF95 /* LKPageCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE27D581F6A69240022AF95 /* LKPageCollectionLayout.swift */; };
+		4AEC8ED61F691B610004600E /* LKPageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEC8ED51F691B610004600E /* LKPageCollectionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AC9FE3B1F383A74008E079F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AC9FE1E1F383A73008E079F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AC9FE251F383A73008E079F;
+			remoteInfo = LKPageView;
+		};
+		4AC9FE461F383A74008E079F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AC9FE1E1F383A73008E079F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AC9FE251F383A73008E079F;
+			remoteInfo = LKPageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A9DEF521F39936C00789FA5 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		4AC9FE261F383A73008E079F /* LKPageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKPageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC9FE291F383A73008E079F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AC9FE2B1F383A73008E079F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4AC9FE2E1F383A73008E079F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AC9FE301F383A73008E079F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AC9FE331F383A73008E079F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AC9FE351F383A73008E079F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC9FE3A1F383A74008E079F /* LKPageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKPageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC9FE3E1F383A74008E079F /* LKPageViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKPageViewTests.swift; sourceTree = "<group>"; };
+		4AC9FE401F383A74008E079F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC9FE451F383A74008E079F /* LKPageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKPageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC9FE491F383A74008E079F /* LKPageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKPageViewUITests.swift; sourceTree = "<group>"; };
+		4AC9FE4B1F383A74008E079F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC9FE581F383B62008E079F /* LKPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKPageView.swift; sourceTree = "<group>"; };
+		4AC9FE5A1F383B7A008E079F /* LKTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKTitleView.swift; sourceTree = "<group>"; };
+		4AC9FE5C1F383BBA008E079F /* LKContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKContentView.swift; sourceTree = "<group>"; };
+		4AC9FE5E1F383CC9008E079F /* LKPageStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKPageStyle.swift; sourceTree = "<group>"; };
+		4AE27D581F6A69240022AF95 /* LKPageCollectionLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKPageCollectionLayout.swift; sourceTree = "<group>"; };
+		4AEC8ED51F691B610004600E /* LKPageCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKPageCollectionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AC9FE231F383A73008E079F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC9FE371F383A74008E079F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC9FE421F383A74008E079F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AC9FE1D1F383A73008E079F = {
+			isa = PBXGroup;
+			children = (
+				4AC9FE281F383A73008E079F /* LKPageView */,
+				4AC9FE3D1F383A74008E079F /* LKPageViewTests */,
+				4AC9FE481F383A74008E079F /* LKPageViewUITests */,
+				4AC9FE271F383A73008E079F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AC9FE271F383A73008E079F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AC9FE261F383A73008E079F /* LKPageView.app */,
+				4AC9FE3A1F383A74008E079F /* LKPageViewTests.xctest */,
+				4AC9FE451F383A74008E079F /* LKPageViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AC9FE281F383A73008E079F /* LKPageView */ = {
+			isa = PBXGroup;
+			children = (
+				4AC9FE571F383ACF008E079F /* LKPageView */,
+				4AC9FE291F383A73008E079F /* AppDelegate.swift */,
+				4AC9FE2B1F383A73008E079F /* ViewController.swift */,
+				4A9DEF521F39936C00789FA5 /* UIColor-Extension.swift */,
+				4AC9FE2D1F383A73008E079F /* Main.storyboard */,
+				4AC9FE301F383A73008E079F /* Assets.xcassets */,
+				4AC9FE321F383A73008E079F /* LaunchScreen.storyboard */,
+				4AC9FE351F383A73008E079F /* Info.plist */,
+			);
+			path = LKPageView;
+			sourceTree = "<group>";
+		};
+		4AC9FE3D1F383A74008E079F /* LKPageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AC9FE3E1F383A74008E079F /* LKPageViewTests.swift */,
+				4AC9FE401F383A74008E079F /* Info.plist */,
+			);
+			path = LKPageViewTests;
+			sourceTree = "<group>";
+		};
+		4AC9FE481F383A74008E079F /* LKPageViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AC9FE491F383A74008E079F /* LKPageViewUITests.swift */,
+				4AC9FE4B1F383A74008E079F /* Info.plist */,
+			);
+			path = LKPageViewUITests;
+			sourceTree = "<group>";
+		};
+		4AC9FE571F383ACF008E079F /* LKPageView */ = {
+			isa = PBXGroup;
+			children = (
+				4AC9FE581F383B62008E079F /* LKPageView.swift */,
+				4AC9FE5A1F383B7A008E079F /* LKTitleView.swift */,
+				4AC9FE5C1F383BBA008E079F /* LKContentView.swift */,
+				4AC9FE5E1F383CC9008E079F /* LKPageStyle.swift */,
+				4AEC8ED51F691B610004600E /* LKPageCollectionView.swift */,
+				4AE27D581F6A69240022AF95 /* LKPageCollectionLayout.swift */,
+			);
+			path = LKPageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AC9FE251F383A73008E079F /* LKPageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC9FE4E1F383A74008E079F /* Build configuration list for PBXNativeTarget "LKPageView" */;
+			buildPhases = (
+				4AC9FE221F383A73008E079F /* Sources */,
+				4AC9FE231F383A73008E079F /* Frameworks */,
+				4AC9FE241F383A73008E079F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKPageView;
+			productName = LKPageView;
+			productReference = 4AC9FE261F383A73008E079F /* LKPageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AC9FE391F383A74008E079F /* LKPageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC9FE511F383A74008E079F /* Build configuration list for PBXNativeTarget "LKPageViewTests" */;
+			buildPhases = (
+				4AC9FE361F383A74008E079F /* Sources */,
+				4AC9FE371F383A74008E079F /* Frameworks */,
+				4AC9FE381F383A74008E079F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AC9FE3C1F383A74008E079F /* PBXTargetDependency */,
+			);
+			name = LKPageViewTests;
+			productName = LKPageViewTests;
+			productReference = 4AC9FE3A1F383A74008E079F /* LKPageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AC9FE441F383A74008E079F /* LKPageViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC9FE541F383A74008E079F /* Build configuration list for PBXNativeTarget "LKPageViewUITests" */;
+			buildPhases = (
+				4AC9FE411F383A74008E079F /* Sources */,
+				4AC9FE421F383A74008E079F /* Frameworks */,
+				4AC9FE431F383A74008E079F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AC9FE471F383A74008E079F /* PBXTargetDependency */,
+			);
+			name = LKPageViewUITests;
+			productName = LKPageViewUITests;
+			productReference = 4AC9FE451F383A74008E079F /* LKPageViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AC9FE1E1F383A73008E079F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "天高云展";
+				TargetAttributes = {
+					4AC9FE251F383A73008E079F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = DRKYYY3Z4B;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					4AC9FE391F383A74008E079F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = DRKYYY3Z4B;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4AC9FE251F383A73008E079F;
+					};
+					4AC9FE441F383A74008E079F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = DRKYYY3Z4B;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4AC9FE251F383A73008E079F;
+					};
+				};
+			};
+			buildConfigurationList = 4AC9FE211F383A73008E079F /* Build configuration list for PBXProject "LKPageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AC9FE1D1F383A73008E079F;
+			productRefGroup = 4AC9FE271F383A73008E079F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AC9FE251F383A73008E079F /* LKPageView */,
+				4AC9FE391F383A74008E079F /* LKPageViewTests */,
+				4AC9FE441F383A74008E079F /* LKPageViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AC9FE241F383A73008E079F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC9FE341F383A73008E079F /* LaunchScreen.storyboard in Resources */,
+				4AC9FE311F383A73008E079F /* Assets.xcassets in Resources */,
+				4AC9FE2F1F383A73008E079F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC9FE381F383A74008E079F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC9FE431F383A74008E079F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AC9FE221F383A73008E079F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEC8ED61F691B610004600E /* LKPageCollectionView.swift in Sources */,
+				4AC9FE5B1F383B7A008E079F /* LKTitleView.swift in Sources */,
+				4AC9FE2C1F383A73008E079F /* ViewController.swift in Sources */,
+				4AE27D591F6A69240022AF95 /* LKPageCollectionLayout.swift in Sources */,
+				4AC9FE2A1F383A73008E079F /* AppDelegate.swift in Sources */,
+				4AC9FE5F1F383CC9008E079F /* LKPageStyle.swift in Sources */,
+				4AC9FE591F383B62008E079F /* LKPageView.swift in Sources */,
+				4A9DEF531F39936D00789FA5 /* UIColor-Extension.swift in Sources */,
+				4AC9FE5D1F383BBA008E079F /* LKContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC9FE361F383A74008E079F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC9FE3F1F383A74008E079F /* LKPageViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC9FE411F383A74008E079F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC9FE4A1F383A74008E079F /* LKPageViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AC9FE3C1F383A74008E079F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AC9FE251F383A73008E079F /* LKPageView */;
+			targetProxy = 4AC9FE3B1F383A74008E079F /* PBXContainerItemProxy */;
+		};
+		4AC9FE471F383A74008E079F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AC9FE251F383A73008E079F /* LKPageView */;
+			targetProxy = 4AC9FE461F383A74008E079F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AC9FE2D1F383A73008E079F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AC9FE2E1F383A73008E079F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AC9FE321F383A73008E079F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AC9FE331F383A73008E079F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AC9FE4C1F383A74008E079F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AC9FE4D1F383A74008E079F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AC9FE4F1F383A74008E079F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DRKYYY3Z4B;
+				INFOPLIST_FILE = LKPageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ez360.LKPageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		4AC9FE501F383A74008E079F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DRKYYY3Z4B;
+				INFOPLIST_FILE = LKPageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ez360.LKPageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		4AC9FE521F383A74008E079F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DRKYYY3Z4B;
+				INFOPLIST_FILE = LKPageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ez360.LKPageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKPageView.app/LKPageView";
+			};
+			name = Debug;
+		};
+		4AC9FE531F383A74008E079F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DRKYYY3Z4B;
+				INFOPLIST_FILE = LKPageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ez360.LKPageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKPageView.app/LKPageView";
+			};
+			name = Release;
+		};
+		4AC9FE551F383A74008E079F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DRKYYY3Z4B;
+				INFOPLIST_FILE = LKPageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ez360.LKPageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = LKPageView;
+			};
+			name = Debug;
+		};
+		4AC9FE561F383A74008E079F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DRKYYY3Z4B;
+				INFOPLIST_FILE = LKPageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ez360.LKPageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = LKPageView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AC9FE211F383A73008E079F /* Build configuration list for PBXProject "LKPageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC9FE4C1F383A74008E079F /* Debug */,
+				4AC9FE4D1F383A74008E079F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AC9FE4E1F383A74008E079F /* Build configuration list for PBXNativeTarget "LKPageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC9FE4F1F383A74008E079F /* Debug */,
+				4AC9FE501F383A74008E079F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AC9FE511F383A74008E079F /* Build configuration list for PBXNativeTarget "LKPageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC9FE521F383A74008E079F /* Debug */,
+				4AC9FE531F383A74008E079F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AC9FE541F383A74008E079F /* Build configuration list for PBXNativeTarget "LKPageViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC9FE551F383A74008E079F /* Debug */,
+				4AC9FE561F383A74008E079F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AC9FE1E1F383A73008E079F /* Project object */;
+}
